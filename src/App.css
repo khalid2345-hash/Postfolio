@@ -6,6 +6,11 @@
     
 }
 
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
 html, body {
   overflow-x: hidden;
 }

@@ -60,9 +60,9 @@ export default function Header() {
 </Link>
             </li>
             <li>
-              <Link to="/#About">
-  Contact
-</Link>
+               <a href="#about" onClick={(e) => scrollToSection(e, "about")}>
+                About
+              </a>
             </li>
             <li>
               <a href="#skills" onClick={(e) => scrollToSection(e, "skills")}>

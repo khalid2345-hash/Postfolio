@@ -1,10 +1,10 @@
 import Header from "./component/Header";
-import "./App.css";
+import "./app.css";
 import Footer from "./component/Footer";
 import About from "./About";
-import Support from "./Support";
+// import Support from "./Support";
 import Posfolio from "./Posfolio";
-import Works from "./Works";
+// import Works from "./Works";
 // import project from "./project"
 import Contact from "./Contact";
 import Loader from "./Loader";
@@ -51,13 +51,13 @@ export default function App() {
       <Routes>
         <Route path="/" element={<About name="Khalid" />} />
 
-        <Route
+        {/* <Route
           path="/support"
           element={<Support name="About" username="Khalid" />}
-        />
+        /> */}
 
         
-          <Route path="/works" element={<Works />} />
+          {/* <Route path="/works" element={<Works />} /> */}
         
 
         {/* <Route
